@@ -25,6 +25,12 @@
 			<artifactId>junit5-engine</artifactId>
 			<version>5.0.0-ALPHA</version>
 		</dependency>
+		<!--jstl -->
+		<dependency>
+			<groupId>jstl</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
 
 	</dependencies>
 	<build>
