@@ -9,7 +9,7 @@ create table books(
 	book_name varchar(40) NOT NULL,
 	book_author varchar(40) NOT NULL,	
 	book_price decimal(10,2) NOT NULL,
-	PRIMARY KEY(books_id),
+	PRIMARY KEY(books_id)
 );
 
 create table student_book(
