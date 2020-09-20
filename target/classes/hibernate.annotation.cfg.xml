@@ -17,5 +17,9 @@
 		
         <mapping class="com.ecommerce.online.ecom.model.User" />
         <mapping class="com.ecommerce.online.ecom.model.Address" />
+        <mapping class="com.ecommerce.online.ecom.model.Student" />
+        <mapping class="com.ecommerce.online.ecom.model.Books" />
+        <mapping class="com.ecommerce.online.ecom.model.Product" />
+        <mapping class="com.ecommerce.online.ecom.model.Cart" />
     </session-factory>
 </hibernate-configuration>
