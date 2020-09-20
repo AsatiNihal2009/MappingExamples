@@ -3,10 +3,7 @@ create table user(
 	user_id int(11) NOT NULL AUTO_INCREMENT,
 	name varchar(40) NOT NULL,
 	email varchar(40) NOT NULL,
-	PRIMARY KEY(user_id),
-	add_id int(11) NOT NULL,
-	KEY user_fk (add_id),
-	CONSTRAINT user_fk FOREIGN KEY (add_id) REFERENCES address(add_id);
+	PRIMARY KEY(user_id)
 );
 create table address(
 	add_id int(11) NOT NULL AUTO_INCREMENT,

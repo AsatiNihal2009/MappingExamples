@@ -14,8 +14,10 @@
         <property name="hibernate.show_sql">true</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
 		<property name="hibernate.id.new_generator_mappings">false</property>
-		
+				
         <mapping class="com.ecommerce.online.ecom.model.User" />
         <mapping class="com.ecommerce.online.ecom.model.Address" />
+   		<mapping class="com.ecommerce.online.ecom.model.Cart" />
+        <mapping class="com.ecommerce.online.ecom.model.Product" />
     </session-factory>
 </hibernate-configuration>
